@@ -1,0 +1,109 @@
+* {
+  margin: 0 0;
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #d3e4cd;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  padding: 40px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  width: 100%;
+  background-color: #99a799;
+  margin: 10px;
+  padding: 30px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #161853;
+}
+h4 {
+  text-align: center;
+  color: #161853;
+  margin-bottom: 20px;
+}
+.title {
+  margin-bottom: 10px;
+}
+.big-title {
+  color: #161853;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.btn-container {
+  display: flex;
+}
+.delete-btn {
+  background-color: #ec255a;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #161853;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.edit-btn {
+  background-color: #95d1cc;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #161853;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.input {
+  width: 50%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+}
+
+.form-container {
+  width: 38%;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #95d1cc;
+  color: #161853;
+}
+.form {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
